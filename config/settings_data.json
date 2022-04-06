@@ -120,7 +120,7 @@
         "settings": {
           "color_scheme": "background-2",
           "logo": "shopify:\/\/shop_images\/logo_e72625fc-ba65-4a7e-981e-74d4af998d82.png",
-          "logo_width": 220,
+          "logo_width": 180,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
