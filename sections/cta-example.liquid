@@ -1,16 +1,19 @@
-{% stylesheet %} .cta-example{ position:relative; } .cta-example_content{ position:absolute; top:50%; left:50%; transform:translate(-50%,50%); background:#fffl; } {% endstylesheet %}
+{% stylesheet %} .cta-example{ position:relative; } .cta-example_image img{ width:100%; height:auto; } .cta-example_content{ position:absolute; top:50%; left:50%; transform:translate(-50%,50%); background:#fffl; } {% endstylesheet %}
 <section>
 
     <div class="cta-example_img">
-        {{ 'lifestyle-2' | placeholder_svg_tag }}
+        {% if section.settings.background_image !=blank %}
+        <img src="{{ section.settings.background_image | img_url:width:1200}}" alt="" width="500" height="200" loading="lazy"> {% else %} {{ 'lifestyle-2' | placeholder_svg_tag }} {% endif %}
     </div>
 
     <div class="cta-example_content">
-        <h2>My Call-to-Action</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo tempore ullam libero eligendi amet rerum quibusdam beatae enim ad magnam et blanditiis, iure earum dolorem temporibus eaque, obcaecati aliquam animi?</p>
-        <a href="#">Learn More</a>
+        {% if section.settings.heading !=blank %}
+        <h2>{{ section.settings.heading }}</h2>
+        {% endif %} {{section.settings.content}} {% if section.settings.heading !=blank %}
+        <a href="{{ section.settings.button_link }} class=btn">{{ section.settings.button_text }}</a> {% endif %}
     </div>
 
 </section>
 
-{% schema %} { "name":"Call-to-Action", "tag":"section", "class":"cta-example","settings":{ "type":"text","id":"heading","label":"Heading" } } {% endschema %}
+{% schema %} { "name":"Call-to-Action", "tag":"section", "class":"cta-example","settings":[{ "type": "image_picker", "id": "background_image", "label": "Background image" } ,{ "type":"text","id":"heading","label":"Heading" },{"type":"richtext","id":"content","label":"Content"},{
+"type": "url", "id": "button_link", "label": "Button link"},{"type": "text", "id": "button_text", "label": "Button text" } ]} {% endschema %}

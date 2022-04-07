@@ -8,8 +8,7 @@
             }
         },
         "cta": {
-            "type": "cta-example",
-            "settings": {}
+            "type": "cta-example"
         },
         "newsletter": {
             "type": "newsletter",
