@@ -7,6 +7,13 @@
                 "padding_bottom": 36
             }
         },
+        "product-list-example": {
+            "type": "product-list-example",
+            "settings": {
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
         "newsletter": {
             "type": "newsletter",
             "blocks": {
@@ -43,6 +50,7 @@
     },
     "order": [
         "main",
+        "product-list-example",
         "newsletter"
     ]
 }
