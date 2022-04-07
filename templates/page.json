@@ -7,9 +7,6 @@
                 "padding_bottom": 36
             }
         },
-        "cta": {
-            "type": "cta-example"
-        },
         "newsletter": {
             "type": "newsletter",
             "blocks": {
@@ -46,7 +43,6 @@
     },
     "order": [
         "main",
-        "cta",
         "newsletter"
     ]
 }
