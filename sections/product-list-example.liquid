@@ -1,45 +1,42 @@
 <style>
     .product-list-example {}
     
-    .product-list-example_products {
+    .product-list-example__products {
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
     }
     
-    .product-list-example_product-item {
+    .product-list-example__product-item {
         margin: 20px;
         padding: 20px;
         background: #fff;
     }
 </style>
+
 <div class="page-width">
-    {% if section.settings.heading !=blank %}
+    {% if section.settings.heading != blank %}
     <h2>{{ section.settings.heading }}</h2>
     {% endif %}
 
-    <ul class="product-list-example_products">
+    <ul class="product-list-example__products">
         {% for product in collections[section.settings.collection].products %}
 
-        <li class="product-list-example_product-item">
+        <li class="product-list-example__product-item">
             <img src="{{ product.featured_image | image_url: width: 200 }}" alt="" loading="lazy" width="50" height="50">
 
             <h3>{{ product.title }}</h3>
             <div>
-                <del>{{ product.compare_at_price | money }}</li></del> - {{ product.price | money_with_currency }}
-            </div>
+                <del>{{ product.compare_at_price | money }}</del> - {{ product.price | money_with_currency }}</div>
 
-            <a href="#" class="button" {% if product.available %} disable {% endif %}>
-                    {{ 'general.shop_now' | t }}
-                </a>
+            <a href="#" class="button" {% if product.available %} disabled {% endif %}>
+					{{ 'general.shop_now.shop_now' | t }}
+				</a>
         </li>
         {% endfor %}
     </ul>
 </div>
 
 
-
-
-
-{% schema %} { "name": "Product List Example", "tag": "section", "class":"product-list-example", "settings":[ { "type":"text", "id":"heading", "label":"Label", "default":"Prodcuct List Example" }, { "type": "collection", "id": "collection", "label": "Collection"
-} ] } {% endschema %}
+{% schema %} { "name": "Product List Example", "tag": "section", "class": "product-list-example", "settings": [ { "type": "text", "id": "heading", "label": "Label", "default": "Product List Example" }, { "type": "collection", "id": "collection", "label":
+"Collection" } ] } {% endschema %}
