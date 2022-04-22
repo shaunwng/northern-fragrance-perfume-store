@@ -36,7 +36,7 @@
                     type="email"
                     name="contact[email]"
                     class="field__input"
-                    value="{{ form.email }}"
+                    value="{% if customer%}{{ customer.email }} {% else %}{{ form.email }}{% endif %}"
                     aria-required="true"
                     autocorrect="off"
                     autocapitalize="off"
