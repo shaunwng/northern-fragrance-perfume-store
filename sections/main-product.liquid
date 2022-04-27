@@ -219,6 +219,12 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+          {% if product.metafields.fiels.file_downloader != blank %}
+          <a href="{{ product.metafields.fiels.file_downloader | file_url }}" download target="_blank">
+            {{  'products.product.pdf_file' | t }}
+          </a>
+          {% endif %}
+
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
