@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "GET STARTED",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -105,14 +105,14 @@
         "product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "carolina-herrera-very-good-girl-eau-de-parfum",
             "second_image": true
           }
         },
         "product-2": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "chloe-chloe-eau-de-parfum",
             "second_image": true
           }
         }
@@ -125,11 +125,11 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "column",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "padding_top": 60,
-        "padding_bottom": 16
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "multicolumn": {
@@ -248,7 +248,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news!<\/p>"
           }
         },
         "email-form": {
