@@ -173,6 +173,20 @@
         "padding_bottom": 24
       }
     },
+    "1651163341c7347f21": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/miss_dior_7500d80a-64c9-434b-a065-025f5eb11198.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=62mUh2MEQr8",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -207,18 +221,15 @@
         "padding_bottom": 52
       }
     },
-    "1651163341c7347f21": {
-      "type": "video",
+    "16511642364ffb48eb": {
+      "type": "feattured-blogs",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/miss_dior_7500d80a-64c9-434b-a065-025f5eb11198.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=62mUh2MEQr8",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Blog posts",
+        "blog": "新闻",
+        "post_limit": 3,
+        "blog_show_author": true,
+        "blog_show_date": true,
+        "show_view_all": true
       }
     }
   },
@@ -228,7 +239,8 @@
     "rich-text",
     "collage",
     "collection-list",
+    "1651163341c7347f21",
     "newsletter",
-    "1651163341c7347f21"
+    "16511642364ffb48eb"
   ]
 }
