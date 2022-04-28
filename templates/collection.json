@@ -25,37 +25,6 @@
         "padding_bottom": 0
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "all"
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Discover more of our favorites",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 64
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -89,12 +58,33 @@
         "padding_top": 68,
         "padding_bottom": 52
       }
+    },
+    "1651169108f335fa59": {
+      "type": "apps",
+      "blocks": {
+        "fcf70c91-64b0-4c84-9b8d-d42757d7cc8b": {
+          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_text_type": "h2",
+            "heading_alignment": "left",
+            "faq_embed_code": "Copy paste embed code you received from app.",
+            "faqs_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "fcf70c91-64b0-4c84-9b8d-d42757d7cc8b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main-collection-banner",
     "main-collection-product-grid",
-    "collage",
-    "newsletter"
+    "newsletter",
+    "1651169108f335fa59"
   ]
 }
