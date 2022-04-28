@@ -187,6 +187,23 @@
         "padding_bottom": 36
       }
     },
+    "1651164370f53cc62c": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "新闻",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "accent-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -220,17 +237,6 @@
         "padding_top": 68,
         "padding_bottom": 52
       }
-    },
-    "16511642364ffb48eb": {
-      "type": "feattured-blogs",
-      "settings": {
-        "title": "Blog posts",
-        "blog": "新闻",
-        "post_limit": 3,
-        "blog_show_author": true,
-        "blog_show_date": true,
-        "show_view_all": true
-      }
     }
   },
   "order": [
@@ -240,7 +246,7 @@
     "collage",
     "collection-list",
     "1651163341c7347f21",
-    "newsletter",
-    "16511642364ffb48eb"
+    "1651164370f53cc62c",
+    "newsletter"
   ]
 }
