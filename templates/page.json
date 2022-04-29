@@ -64,8 +64,8 @@
         "1651188396e224885a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Northern Fragrance Perfume Store",
-            "heading_size": "h2"
+            "heading": "Northern Fragrance Perfume",
+            "heading_size": "h1"
           }
         },
         "1651188396e224885a-1": {
@@ -78,6 +78,34 @@
       "block_order": [
         "1651188396e224885a-0",
         "1651188396e224885a-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1651192217895fa02a": {
+      "type": "rich-text",
+      "blocks": {
+        "0ff1a007-4268-4ecc-b0b8-d28bfea6e84e": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR MISSION",
+            "heading_size": "h2"
+          }
+        },
+        "1651192217c35a3480-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To share our genuine passion for perfume & people and offer the most knowledgeable fragrance expertise on the high street.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0ff1a007-4268-4ecc-b0b8-d28bfea6e84e",
+        "1651192217c35a3480-1"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -125,6 +153,7 @@
     "main",
     "1651191854aae090f1",
     "16511883962beb1a2d",
+    "1651192217895fa02a",
     "newsletter"
   ]
 }
