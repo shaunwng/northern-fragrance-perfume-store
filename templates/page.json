@@ -86,26 +86,102 @@
         "padding_bottom": 52
       }
     },
+    "16511923907252c8f4": {
+      "type": "rich-text",
+      "blocks": {
+        "1651192390fe8d61a6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1651192390fe8d61a6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1651192390fe8d61a6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1651192390fe8d61a6-0",
+        "1651192390fe8d61a6-1",
+        "1651192390fe8d61a6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1651192217895fa02a": {
       "type": "rich-text",
       "blocks": {
         "0ff1a007-4268-4ecc-b0b8-d28bfea6e84e": {
           "type": "heading",
           "settings": {
-            "heading": "OUR MISSION",
+            "heading": "OUR HISTORY",
             "heading_size": "h2"
           }
         },
         "1651192217c35a3480-1": {
           "type": "text",
           "settings": {
-            "text": "<p>To share our genuine passion for perfume & people and offer the most knowledgeable fragrance expertise on the high street.<\/p>"
+            "text": "<p>Founded in 1992, The Perfume Shop set out with the simple idea of making luxury perfume brands accessible to everyone at an affordable price. With the first store openings in Toronto, New York & Los, Angeles. The Northern Fragrance Perfume developed a genuine passion for delighting customers with expert perfume knowledge and the highest customer service standards which remain at the forefront of everything the brand stands for today. In 2005 The Perfume Shop was acquired by the world's largest international health and beauty retailer A.S Watson - known in 25 markets, they opened their 15,000th store in March 2019. Find out more about our<a href=\"https:\/\/www.theperfumeshopjobs.com\/about-us\/\">history<\/a>and our<a href=\"http:\/\/www.aswatson.com\/\">parent company.<\/a><\/p>"
           }
         }
       },
       "block_order": [
         "0ff1a007-4268-4ecc-b0b8-d28bfea6e84e",
         "1651192217c35a3480-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16511924029c746ff4": {
+      "type": "rich-text",
+      "blocks": {
+        "1651192402e8891805-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1651192402e8891805-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1651192402e8891805-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1651192402e8891805-0",
+        "1651192402e8891805-1",
+        "1651192402e8891805-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -153,7 +229,9 @@
     "main",
     "1651191854aae090f1",
     "16511883962beb1a2d",
+    "16511923907252c8f4",
     "1651192217895fa02a",
+    "16511924029c746ff4",
     "newsletter"
   ]
 }
