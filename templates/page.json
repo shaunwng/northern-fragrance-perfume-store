@@ -108,20 +108,8 @@
     },
     "16511923907252c8f4": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
-        "1651192390fe8d61a6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1651192390fe8d61a6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
         "1651192390fe8d61a6-2": {
           "type": "button",
           "disabled": true,
@@ -133,8 +121,6 @@
         }
       },
       "block_order": [
-        "1651192390fe8d61a6-0",
-        "1651192390fe8d61a6-1",
         "1651192390fe8d61a6-2"
       ],
       "settings": {
